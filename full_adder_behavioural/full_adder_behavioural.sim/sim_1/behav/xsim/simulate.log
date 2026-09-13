@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+the value of a_tb is 1 and b_tb is 1 and cin_tb is 1 and sum_tb is 1 and carry_tb is 1
+the value of a_tb is 0 and b_tb is 0 and cin_tb is 1 and sum_tb is 1 and carry_tb is 0
+the value of a_tb is 0 and b_tb is 1 and cin_tb is 0 and sum_tb is 1 and carry_tb is 0
+the value of a_tb is 1 and b_tb is 1 and cin_tb is 0 and sum_tb is 0 and carry_tb is 1
+the value of a_tb is 0 and b_tb is 1 and cin_tb is 1 and sum_tb is 0 and carry_tb is 1

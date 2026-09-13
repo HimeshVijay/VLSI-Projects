@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 16 2026
+11:12:08
+/home/zangetsu/full_adder_behavioural/full_adder_behavioural.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,,,,,,,
+/home/zangetsu/full_adder_behavioural/full_adder_behavioural.srcs/sim_1/new/full_adder_tb.v,1789295763,verilog,,,,full_adder_tb,,,../../../../../application/2026.1/data/rsb/busdef,,,,,
+/home/zangetsu/full_adder_behavioural/full_adder_behavioural.srcs/sources_1/new/full_adder.v,1789294913,verilog,,/home/zangetsu/full_adder_behavioural/full_adder_behavioural.srcs/sim_1/new/full_adder_tb.v,,full_adder,,,../../../../../application/2026.1/data/rsb/busdef,,,,,

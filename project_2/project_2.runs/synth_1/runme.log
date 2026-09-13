@@ -1,0 +1,206 @@
+
+*** Running vivado
+    with args -log two_bit_comparator.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source two_bit_comparator.tcl
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 18-aug-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Aug 22 18:31:14 2026
+# Process ID         : 110749
+# Current directory  : /home/zangetsu/vlsi_projects/project_2/project_2.runs/synth_1
+# Command line       : vivado -log two_bit_comparator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source two_bit_comparator.tcl
+# Log file           : /home/zangetsu/vlsi_projects/project_2/project_2.runs/synth_1/two_bit_comparator.vds
+# Journal file       : /home/zangetsu/vlsi_projects/project_2/project_2.runs/synth_1/vivado.jou
+# Running On         : seireitei
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13450HX
+# CPU Frequency      : 800.115 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16456 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20751 MB
+# Available Virtual  : 9285 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Sat Aug 22 18:31:14 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source two_bit_comparator.tcl -notrace
+Command: synth_design -top two_bit_comparator -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7vx485t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 110786
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2209.492 ; gain = 487.203 ; free physical = 213 ; free virtual = 7935
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'aonebar', assumed default net type 'wire' [/home/zangetsu/vlsi_projects/project_2/project_2.srcs/sources_1/new/two_bit_comparator.v:43]
+INFO: [Synth 8-6157] synthesizing module 'two_bit_comparator' [/home/zangetsu/vlsi_projects/project_2/project_2.srcs/sources_1/new/two_bit_comparator.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'two_bit_comparator' (0#1) [/home/zangetsu/vlsi_projects/project_2/project_2.srcs/sources_1/new/two_bit_comparator.v:22]
+WARNING: [Synth 8-3848] Net aonebar in module/entity two_bit_comparator does not have driver. [/home/zangetsu/vlsi_projects/project_2/project_2.srcs/sources_1/new/two_bit_comparator.v:43]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2294.461 ; gain = 572.172 ; free physical = 203 ; free virtual = 7868
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2303.367 ; gain = 581.078 ; free physical = 203 ; free virtual = 7868
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2303.367 ; gain = 581.078 ; free physical = 203 ; free virtual = 7868
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2311.375 ; gain = 589.086 ; free physical = 201 ; free virtual = 7867
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2711.094 ; gain = 988.805 ; free physical = 245 ; free virtual = 7588
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2725.969 ; gain = 1003.680 ; free physical = 247 ; free virtual = 7576
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2725.969 ; gain = 1003.680 ; free physical = 239 ; free virtual = 7567
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     3|
+|2     |IBUF |     4|
+|3     |OBUF |     3|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    10|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2922.781 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2925.750 ; gain = 1200.492 ; free physical = 232 ; free virtual = 7374
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2938.625 ; gain = 0.000 ; free physical = 361 ; free virtual = 7503
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3092.176 ; gain = 0.000 ; free physical = 202 ; free virtual = 7344
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 30ccfa2
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+13 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 3095.145 ; gain = 1372.855 ; free physical = 193 ; free virtual = 7336
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2139.373; main = 2139.373; forked = 275.205
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3569.367; main = 3095.148; forked = 1038.301
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3119.156 ; gain = 0.000 ; free physical = 193 ; free virtual = 7336
+INFO: [Common 17-1381] The checkpoint '/home/zangetsu/vlsi_projects/project_2/project_2.runs/synth_1/two_bit_comparator.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file two_bit_comparator_utilization_synth.rpt -pb two_bit_comparator_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 22 18:31:34 2026...

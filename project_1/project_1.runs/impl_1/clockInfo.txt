@@ -1,0 +1,10 @@
+-------------------------------------
+| Tool Version : Vivado v.2026.1
+| Date         : Tue Aug 18 23:26:45 2026
+| Host         : seireitei
+| Design       : checkpoint_full_adder
+| Device       : xc7vx485t-ffg1157-1--
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+
